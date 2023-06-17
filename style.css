@@ -1,0 +1,274 @@
+* {
+    font-family: 'Exo 2', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    min-width: 1900px;
+    width: 100%;
+    height: 235px;
+}
+
+
+
+.content {
+    height: 170px;
+    padding: 12px 90px 12px 90px;
+}
+
+.header_logo {
+    font-size: 24px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.header_logo a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.header_contacts {
+    margin-left: 300px;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 24px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.header_contacts a {
+    color: black;
+    text-decoration: none;
+}
+
+.header_schedule {
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: 24px;
+    float: right;
+}
+
+.header_nav {
+    width: 100%;
+    height: 65px;
+    background-color: rgba(110, 174, 100, 0.7);
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 16px;
+}
+
+.header_nav a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    transition: .2s;
+
+}
+
+.header_nav a:hover {
+    color: wheat;
+}
+
+#header_nav_active {
+    color: wheat;
+}
+
+.about {
+    min-width: 1900px;
+    width: 100%;
+    font-size: 20px;
+    margin: 64px 0px 64px 0px;
+    padding: 13px 137px 40px 112px;
+    min-height: 630px;
+    background-color: rgba(215, 240, 211, 1);
+}
+
+.about img {
+    float: right;
+    padding-left: 50px;
+}
+
+.info {
+    margin: 0 auto;
+    margin-bottom: 64px;
+    width: 1230px;
+    height: 430px;
+    background-color: rgba(239, 239, 239, 1);
+    padding: 28px;
+}
+
+.info table {
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+.info th {
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+
+.info td {
+    vertical-align: top;
+
+}
+
+.info figcaption {
+    text-align: right;
+}
+
+
+main h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+main h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+main h4 {
+    padding: 5px 0;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.license {
+    width: 668px;
+    font-size: 24px;
+    display: inline-block;
+
+}
+
+.docs {
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 45px 0px 0px 200px;
+}
+
+
+
+
+footer {
+    padding: 50px 18px 30px 90px;
+    margin-top: 64px;
+    min-width: 1900px;
+    width: 100%;
+    height: 275px;
+    background-color: rgba(80, 156, 69, 1);
+}
+
+footer nav {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer nav a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+footer nav li {
+    list-style-type: none;
+
+}
+
+
+.footer_contacts {
+    width: 227px;
+    font-size: 24px;
+    color: white;
+    margin-left: 60px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.copyright {
+    width: 930px;
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+}
+
+.services {
+    font-size: 24px;
+    width: 1110px;
+    height: fit-content;
+    min-height: 429px;
+    background-color: rgba(239, 239, 239, 1);
+    margin: 58px 0 0 133px;
+    padding: 25px 25px 45px 77px;
+
+}
+
+.services h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.services_button {
+    text-align: left;
+    width: 600px;
+    font-weight: bold;
+    font-size: 28px;
+    border: none;
+    padding: 30px 0;
+}
+
+.services table {
+    width: 1000px;
+}
+
+.services th {
+    font-size: 24px;
+    padding: 15px 10px;
+}
+
+.services td {
+    padding: 10px 10px;
+}
+
+.services_button span {
+    float: right;
+}
+
+.carousel {
+    min-width: 1900px;
+    width: 100%;
+}
+
+.specialists {
+    margin: 0 auto;
+    width: 1600px;
+    padding: 30px;
+}
+
+.specialist {
+    font-size: 24px;
+    min-height: 654px;
+    height: fit-content;
+    width: 1213px;
+    background-color: #EFEFEF;
+    padding: 30px 35px 40px 30px;
+    margin: 30px 0 70px 0;
+}
+
+.specialist img {
+    width: 400px;
+    float: left;
+    margin-right: 30px;
+}
+
+.spec_info {
+    width: 700px;
+    display: inline-block;
+}
